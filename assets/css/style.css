@@ -1,0 +1,32 @@
+
+*{
+    margin: o;
+    padding: 0;
+}
+.toppage{
+    background-image: url(../img/avrielle-suleiman-u0sviAL9pJM-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.nav {
+    padding-right: 200px;
+    padding-left: 200px;
+
+
+}
+li{
+    font-family: 'Josefin Slab', serif;
+}
