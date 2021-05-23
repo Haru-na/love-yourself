@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> c543b909fd983b8e2f8edeb6f1807c7655269442
 *{
     margin: o;
     padding: 0;
@@ -7,6 +11,7 @@
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    background-attachment: fixed;
     
 }
 .nav{
@@ -26,8 +31,9 @@
 
 
 }
-li{
+li > a{
     font-family: 'Josefin Slab', serif;
+<<<<<<< HEAD
 
 }
 footer {
@@ -77,4 +83,51 @@ footer > h1 {
 }
 .footericon {
     padding: 20px;
+=======
+    color:gray;
+   text-decoration: none;
+              
+}
+/* li > a.hover{
+    text-decoration: underline;
+    color: hotpink;
+   
+   } */
+.main-img {
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.main > .main-img2 {
+    width: 200px;
+    height: 260px;
+    margin-top: 200px;
+    padding-right: 100px;
+    
+   
+    
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main > h1{
+    font-family: 'Homemade Apple', cursive;
+    padding-top: 100px;
+    padding-left: 120px;
+    font-size: 50px;
+}
+p {
+    padding-top: 250px;
+    /* margin-right: 150px; */
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.main2 {
+    background-image:url(../img/A\ cute\ neutral\ wallpaper\ _\)\ #wallpaper\ #iphone\ #beige\ #neutral\ #minimalisticaesthetic\ #interesting\ #minimalistic\ #art\ #brown\ #tan\ #background.jpeg);
+    width: 100vw;
+    
+>>>>>>> c543b909fd983b8e2f8edeb6f1807c7655269442
 }
