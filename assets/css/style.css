@@ -172,6 +172,49 @@ button{
    
 }
 
+.workout {
+    height: 80vh;
+    width: 100vw;
+    background-image:url(../img/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+
+}
+
+.workout-contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.workout_left {
+    padding: 30px;
+}
+
+.workout_left > h2 {
+    padding: 20px;
+    font-family: 'Homemade Apple', cursive;
+    font-size:40px;
+}
+
+.workout_left > div {
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.workout_right > img{
+    padding: 30px;
+    
+}
+
+.workout_button {
+    padding: 20px;
+    text-align: center;
+}
 
 .contact {
     height: 100vh;
