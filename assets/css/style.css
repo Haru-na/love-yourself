@@ -14,28 +14,22 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
-   
+    padding-right: 200px;
+    padding-left: 200px;
 }
+
 .logo{
     width: 150px;
     height: 150px;
 }
-.nav {
-    padding-right: 200px;
-    padding-left: 200px;
 
 
-}
 li > a{
     font-family: 'Josefin Slab', serif;
     color:gray;
     text-decoration: none;
 
 }
-
-    
-              
 
 /* li > a.hover{
     text-decoration: underline;
@@ -78,7 +72,78 @@ p {
     background-image:url(../img/A\ cute\ neutral\ wallpaper\ _\)\ #wallpaper\ #iphone\ #beige\ #neutral\ #minimalisticaesthetic\ #interesting\ #minimalistic\ #art\ #brown\ #tan\ #background.jpeg);
     width: 100vw;
 }
+/* li > a.hover{
+    text-decoration: underline;
+    color: hotpink;
+   
+   } */
+   .main-img {
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+ .main-img2 {
+    width: 300px;
+    height: 360px;
+    margin-top: 50px;
+    padding-right: 100px;
+    
+   
+    
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main-right-top > h1{
+    font-family: 'Homemade Apple', cursive;
+    padding-top: 100px;
+    padding-left: 120px;
+    font-size: 40px;
+}
 
+.main-right-bottom {
+    display: flex;
+}
+p {
+    padding-top: 100px;
+    /* margin-right: 150px; */
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.main2 {
+    background-image:url(../img/wallpaper.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+   
+
+}
+.main2 > img{
+    height: 350px;
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.main3 > h2 {
+    font-family: 'Galada', cursive;
+
+    font-size:50px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.main3 > div{
+    font-family: fantasy;
+    font-size: 30px;
+    padding-top: 30px;
+    width: 500px;
+
+}
 
 
 .contact {
@@ -187,3 +252,6 @@ footer > h2 {
 }
 .footericon {
     padding: 20px
+              
+}
+
