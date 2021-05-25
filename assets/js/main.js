@@ -6,8 +6,8 @@ $( '.js-input' ).keyup(function() {
        $(this).removeClass('not-empty');
     }
   });
-
-$(".main3 > h3".on("mouseover",function(){
-   $(".main3 > div").slideline
+$(".main3 > div").hide();
+$(".main3 > h2").on("mouseover",function(){
+   $(".main3 > div").slideDown();
    
 });
