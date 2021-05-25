@@ -8,6 +8,11 @@ $( '.js-input' ).keyup(function() {
   });
 $(".main3 > div").hide();
 $(".main3 > h2").on("mouseover",function(){
-   $(".main3 > div").slideDown();
-   
+   $(".main3 > div").fadeIn();
+});
+
+$(".workout_left > div").hide();
+$(".workout_left > h2").on("mouseover",function(){
+   $(".workout_left > div").fadeIn();
+ 
 });
