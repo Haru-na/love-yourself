@@ -148,7 +148,10 @@ p {
     padding-top: 30px;
 }
 .main3 > h2 {
-    font-family: 'Homemade Apple', cursive;
+    
+
+font-family: 'Rock Salt', cursive;
+
     font-size:50px;
     padding-top: 30px;
     padding-left: 30px;
@@ -199,7 +202,7 @@ button{
 
 .workout_left > h2 {
     padding: 20px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Rock Salt', cursive;
     font-size:40px;
 }
 
