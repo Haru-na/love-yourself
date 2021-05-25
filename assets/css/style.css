@@ -2,6 +2,7 @@
     margin: o;
     padding: 0;
 }
+/* トップページ */
 .toppage{
     background-image: url(../img/avrielle-suleiman-u0sviAL9pJM-unsplash.jpg);
     background-size: cover;
@@ -51,6 +52,9 @@ li > a {
   li > a:hover::after {
     transform: scale(1, 1);
   }
+  /* トップページ終わり */
+
+  /* main */
 .main-img {
     width: 400px;
     padding-top: 100px;
@@ -87,11 +91,7 @@ p {
     background-image:url(../img/A\ cute\ neutral\ wallpaper\ _\)\ #wallpaper\ #iphone\ #beige\ #neutral\ #minimalisticaesthetic\ #interesting\ #minimalistic\ #art\ #brown\ #tan\ #background.jpeg);
     width: 100vw;
 }
-/* li > a.hover{
-    text-decoration: underline;
-    color: hotpink;
-   
-   } */
+
    .main-img {
     width: 400px;
     padding-top: 100px;
@@ -127,7 +127,9 @@ p {
     font-family: fantasy;
     font-size: 30px;
 }
+/* mainおわり */
 
+/* yoga */
 .main2 {
     background-image:url(../img/wallpaper.jpeg);
     width: 100vw;
@@ -162,15 +164,17 @@ p {
 button{
     height: 50px;
     width: 100px;
-    background-color: rgb(237, 232, 222);
-  
+    background-color: rgb(237, 232, 222); 
 }
+
+
 .main3 >.button {
     text-align: center;
     padding-left: 300px;
-
-   
 }
+/* yoga 終わり*/
+
+/* workout */
 
 .workout {
     height: 80vh;
@@ -215,6 +219,8 @@ button{
     padding: 20px;
     text-align: center;
 }
+/* workout終わり */
+/* コンタクト */
 
 .contact {
     height: 100vh;
@@ -294,8 +300,9 @@ button{
 .submit-button:hover {
     background-color: rgb(230, 208, 196);
 }
+/* コンタクト終わり */
 
-
+/* footer */
 footer {
     height: 50vh;
     background-color: rgb(212, 180, 160);
@@ -345,4 +352,8 @@ footer > h2 {
     padding: 20px
               
 }
+/* footer終わり */
+
+/* レスポンシブ */
+/* レスポンシブ終わり */
 
