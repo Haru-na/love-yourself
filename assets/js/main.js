@@ -4,4 +4,8 @@ $( '.js-input' ).keyup(function() {
     } else {
        $(this).removeClass('not-empty');
     }
+
+$('.contact > h2').on("mouseover",function () {
+   $('.contact > .slide').slidDown();
+})
   });
