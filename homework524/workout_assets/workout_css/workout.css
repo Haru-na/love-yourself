@@ -1,7 +1,7 @@
  .main {
     height: 50px;
     
-
+ }
 
 #pagepiling > section1 {
     max-width: 100%;
@@ -37,6 +37,7 @@
 #pain {
     height: 100vh;
     background-image: url(../workout_img/pexels-scott-webb-140955.jpg);
+    background-repeat: repeat;
     color: white;
     font-family: 'Cinzel', serif;
     text-align: center;
