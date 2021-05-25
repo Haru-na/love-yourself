@@ -7,7 +7,7 @@ $( '.js-input' ).keyup(function() {
     }
   });
 
-$(".main3 > h3").on("mouseover",function(){
-   $(".main3 > div").slideDown();
+$(".main3 > h3".on("mouseover",function(){
+   $(".main3 > div").slideline
    
 });

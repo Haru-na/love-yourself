@@ -30,34 +30,37 @@
     <!-- トップページ -->
     <div class="toppage">
         <ul class="nav">
-            <li><a href="about">About</a></li>
-            <li><a href="yoga">Yoga</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#yoga">Yoga</a></li>
             <li><img class="logo" src="./assets/img/shine-logo (1).png" alt=""></li>
-            <li><a href="workout">Workout</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="#workout">Workout</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
-    <!-- トップページ 終わり -->
+ <!-- トップページ 終わり -->
     <!-- main -->
-    <div class="about">
-        <div class="main">
-            <div class="main-left">
-                <img class="main-img" src="./assets/img/girls-photo.jpeg" alt="" srcset="">
-            </div>
-            <div class="main-right">
-                <div class="main-right-top">
-                    <h1>Love yourself as you are</h1>
+    <section id="about">
+        <div class="about">
+            <div class="main">
+                <div class="main-left">
+                    <img class="main-img" src="./assets/img/girls-photo.jpeg" alt="" srcset="">
                 </div>
-                <div class="main-right-bottom">
-                    <p>"if you dont love yourself,nobody will. Not only that,<br>
-                        you wont be good at loving anyone else. Loving starts with the self" </p>
-                    <img class="main-img2" src="./assets/img/2-in-1 Probiotic Facial Mist.jpeg" alt="" srcset="">
+                <div class="main-right">
+                    <div class="main-right-top">
+                    <h1>Love yourself as you are</h1>
+                    </div>
+                    <div class="main-right-bottom">
+                        <p>"if you dont love yourself,nobody will. Not only that,<br>
+                            you wont be good at loving anyone else. Loving starts with the self" </p>
+                        <img class="main-img2" src="./assets/img/2-in-1 Probiotic Facial Mist.jpeg" alt="" srcset="">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section> 
     <!-- main終わり -->
-    <!-- yoga -->
+     <!-- yoga -->
+    <section id="yoga">
     <div class="yoga">
         <div class="main2">
             <img src="./assets/img/Are Online Yoga Classes Worth It - Best Reviewed Classes.jpeg" alt="" srcset="">
@@ -76,111 +79,110 @@
             </div>
         </div>
     </div>
-    <!-- yoga終わり -->
-    <!-- workout -->
-    <div class="workout">
-        <div class="workout-contents">
-            <div class="workout_left">
-                <h2>Why do you want to WORKOUT...</h2>
-                <div>What is Yoga, exactly? Is it just an exercise form? Is it a religion, a philosophy, an
-                    ideology?<br>
-                    Or is it something else entirely? The word "Yoga" literally means "union".<br>
-                    this article, Sadhguru offers the following Yoga definition; essentially, "that which brings you to
-                    reality."</div>
-                <div class="workout_button">
-                    <a href="">
-                        <button>See More</button>
-                    </a>
+    </section>
+     <!-- yoga終わり -->
+      <!-- workout -->
+    <section id="workout">
+        <div class="workout">
+            <div class="workout-contents">
+                <div class="workout_left">
+                    <h2>Why do you want to WORKOUT...</h2>
+                    <div>What is Yoga, exactly? Is it just an exercise form? Is it a religion, a philosophy, an ideology?<br>
+                        Or is it something else entirely? The word "Yoga" literally means "union".<br>
+                        this article, Sadhguru offers the following Yoga definition; essentially, "that which brings you to
+                        reality."</div>
+                    <div class="workout_button">
+                        <a href="">
+                            <button>See More</button>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="workout_right">
-                <img src="./assets/img/workout.jpg" alt="">
+                <div class="workout_right">
+                    <img src="./assets/img/workout.jpg" alt="">
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-    <!-- workout 終わり -->
+    </section>
     <!-- コンタクト -->
-    <div class="contact">
-        <section id="contact">
-            <h2>contact us</h2>
-            <form class="contact-form">
-                <div class="contact_box">
-                    <label class="label" for="name">Name</label>
-                    <input id="name" class="input-text" type="text" required>
-
+    <section id="contact">
+        <div class="contact">
+            <section id="contact">
+                <h2>contact us</h2>
+                <div class="slide">
+                    <form class="contact-form">      
+                        <div class="contact_box">
+                           <label class="label" for="name">Name</label>
+                           <input id="name" class="input-text" type="text" required>
+                           
+                        </div>
+                        <div class="contact_box">
+                         <label class="label" for="email">E-mail</label>  
+                         <input id="email" class="input-text" type="email" required>
+                           
+                        </div>
+                        <div class="contact_box">
+                         <label class="label" for="message">Message</label> 
+                         <textarea name="" id="message" class="message"></textarea> 
+                         <!-- <textarea name="" id="message" cols="30" rows="10"></textarea> -->
+                         <!-- <input id="" class="input-text" type="text" required> -->
+                           
+                        </div>
+                        <div class="submit-btn">
+                           <input class="submit-btn" type="submit" value="Submit">
+                        </div>
+                     </form>
                 </div>
-                <div class="contact_box">
-                    <label class="label" for="email">E-mail</label>
-                    <input id="email" class="input-text" type="email" required>
-
-                </div>
-                <div class="contact_box">
-                    <label class="label" for="message">Message</label>
-                    <textarea name="" id="message" class="message"></textarea>
-                    <!-- <textarea name="" id="message" cols="30" rows="10"></textarea> -->
-                    <!-- <input id="" class="input-text" type="text" required> -->
-
-                </div>
-                <div class="submit-btn">
-                    <input class="submit-btn" type="submit" value="Submit">
-                </div>
-            </form>
-        </section>
-
-
-    </div>
+                
+            </section>
+    
+    
+        </div>
+    </section>
     <!-- コンタクト終わり -->
-
 <!-- footer -->
     <footer>
-
         <h2>Ok, let's make magic</h2>
         <div class="line">
-            <div class="contents">
+        <div class="contents">
 
-                <ul class="footer_nav">
-                    <div>
-                        <li>
-                            <a href="about">About</a>
-                        </li>
-                        <li>
-                            <a href="yoga">Yoga</a>
-                        </li>
-                    </div>
-                    <div>
-                        <li>
-                            <a href="contact">Contact</a>
-                        </li>
-                        <li>
-                            <a href="workout">Workout</a>
-                        </li>
-                    </div>
-
-
-                </ul>
-
-                <div class="icon-container">
-                    <div class="icons">
-                        <a href="">
-                            <img src="./assets/img/FACEBOOK_icon.png" alt="facebook" class="footericon">
-                        </a>
-                        <a href="">
-                            <img src="./assets/img/instagram_icon.png" alt="instagram" class="footericon">
-                        </a>
-                        <a href="">
-                            <img src="./assets/img/Twitter_icon.png" alt="twitter" class="footericon">
-                        </a>
-                        <a href="">
-                            <img src="./assets/img/youtube_icon.png" alt="yputube" class="footericon">
-                        </a>
-                        <a href="">
-                            <img src="./assets/img/pinta_icon.png" alt="pinterest" class="footericon">
-                        </a>
-                    </div>
+            <ul class="footer_nav">
+                <div>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#yoga">Yoga</a>
+                    </li>
                 </div>
-            </div>
+                <div>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#workout">Workout</a>
+                    </li>
+                </div>
 
+
+            </ul>
+
+            <div class="icon-container">
+                <div class="icons">
+                    <a href="">
+                        <img src="./assets/img/FACEBOOK_icon.png" alt="facebook" class="footericon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/instagram_icon.png" alt="instagram" class="footericon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/Twitter_icon.png" alt="twitter" class="footericon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/youtube_icon.png" alt="yputube" class="footericon">
+                    </a>
+                    <a href="">
+                        <img src="./assets/img/pinta_icon.png" alt="pinterest" class="footericon">
+                    </a>
 
     </footer>
     <!-- footer終わり -->
